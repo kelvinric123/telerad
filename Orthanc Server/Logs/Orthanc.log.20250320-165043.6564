@@ -322,3 +322,39 @@ W0320 19:04:40.559070          HTTP-14 ResourceFinder.cpp:941] W001: Accessing D
 E0320 19:04:42.959263          HTTP-23 dicom-web:/Configuration.cpp:643] Unsupported return MIME type: application/dicom+json, multipart/related; type=application/octet-stream; transfer-syntax=*, will return DICOM+JSON
 E0320 19:16:18.010791           HTTP-4 OrthancException.cpp:62] Accessing an inexistent item: No modality with symbolic name: null
 E0320 19:16:20.269248          HTTP-12 OrthancException.cpp:62] Accessing an inexistent item: No modality with symbolic name: null
+W0320 19:57:56.279144           HTTP-7 ResourceFinder.cpp:762] W005: Requested tag 0008,0060 should only be read at the series or instance level
+W0320 19:57:56.280151           HTTP-7 ResourceFinder.cpp:941] W001: Accessing DICOM tags from storage when accessing study b48bbf42-830b4a47-bb7fad90-e473f523-ed473631: 0008,0060
+E0320 19:57:56.296957           HTTP-7 dicom-web:/Configuration.cpp:643] Unsupported return MIME type: application/dicom+json, multipart/related; type=application/octet-stream; transfer-syntax=*, will return DICOM+JSON
+W0320 19:57:56.306067           HTTP-7 ResourceFinder.cpp:762] W005: Requested tag 0008,0060 should only be read at the series or instance level
+W0320 19:57:56.307066           HTTP-7 ResourceFinder.cpp:941] W001: Accessing DICOM tags from storage when accessing study b48bbf42-830b4a47-bb7fad90-e473f523-ed473631: 0008,0060
+W0320 19:57:56.308069           HTTP-7 ResourceFinder.cpp:941] W001: Accessing DICOM tags from storage when accessing study fc6fbffe-8531efa2-7434a372-09242661-fe012bc6: 0008,0060
+W0320 19:57:56.429741          HTTP-39 ResourceFinder.cpp:762] W005: Requested tag 0008,0060 should only be read at the series or instance level
+W0320 19:57:56.430745          HTTP-39 ResourceFinder.cpp:941] W001: Accessing DICOM tags from storage when accessing study b48bbf42-830b4a47-bb7fad90-e473f523-ed473631: 0008,0060
+W0320 19:57:56.437256          HTTP-39 ResourceFinder.cpp:762] W005: Requested tag 0008,0060 should only be read at the series or instance level
+W0320 19:57:56.438260          HTTP-39 ResourceFinder.cpp:941] W001: Accessing DICOM tags from storage when accessing study b48bbf42-830b4a47-bb7fad90-e473f523-ed473631: 0008,0060
+W0320 19:57:56.439256          HTTP-39 ResourceFinder.cpp:941] W001: Accessing DICOM tags from storage when accessing study fc6fbffe-8531efa2-7434a372-09242661-fe012bc6: 0008,0060
+E0320 19:57:58.246822          HTTP-38 dicom-web:/Configuration.cpp:643] Unsupported return MIME type: application/dicom+json, multipart/related; type=application/octet-stream; transfer-syntax=*, will return DICOM+JSON
+W0320 20:10:44.913865           HTTP-3 ResourceFinder.cpp:762] W005: Requested tag 0008,0060 should only be read at the series or instance level
+W0320 20:10:44.914864           HTTP-3 ResourceFinder.cpp:941] W001: Accessing DICOM tags from storage when accessing study b48bbf42-830b4a47-bb7fad90-e473f523-ed473631: 0008,0060
+E0320 20:10:44.928876           HTTP-3 dicom-web:/Configuration.cpp:643] Unsupported return MIME type: application/dicom+json, multipart/related; type=application/octet-stream; transfer-syntax=*, will return DICOM+JSON
+W0320 20:10:44.935900           HTTP-3 ResourceFinder.cpp:762] W005: Requested tag 0008,0060 should only be read at the series or instance level
+W0320 20:10:44.936900           HTTP-3 ResourceFinder.cpp:941] W001: Accessing DICOM tags from storage when accessing study b48bbf42-830b4a47-bb7fad90-e473f523-ed473631: 0008,0060
+W0320 20:10:44.937899           HTTP-3 ResourceFinder.cpp:941] W001: Accessing DICOM tags from storage when accessing study fc6fbffe-8531efa2-7434a372-09242661-fe012bc6: 0008,0060
+W0320 20:10:45.050772          HTTP-16 ResourceFinder.cpp:762] W005: Requested tag 0008,0060 should only be read at the series or instance level
+W0320 20:10:45.050772          HTTP-16 ResourceFinder.cpp:941] W001: Accessing DICOM tags from storage when accessing study b48bbf42-830b4a47-bb7fad90-e473f523-ed473631: 0008,0060
+W0320 20:10:45.060298          HTTP-16 ResourceFinder.cpp:762] W005: Requested tag 0008,0060 should only be read at the series or instance level
+W0320 20:10:45.060805          HTTP-16 ResourceFinder.cpp:941] W001: Accessing DICOM tags from storage when accessing study b48bbf42-830b4a47-bb7fad90-e473f523-ed473631: 0008,0060
+W0320 20:10:45.061812          HTTP-16 ResourceFinder.cpp:941] W001: Accessing DICOM tags from storage when accessing study fc6fbffe-8531efa2-7434a372-09242661-fe012bc6: 0008,0060
+E0320 20:11:45.479493          HTTP-26 dicom-web:/Configuration.cpp:643] Unsupported return MIME type: application/dicom+json, multipart/related; type=application/octet-stream; transfer-syntax=*, will return DICOM+JSON
+W0320 21:00:36.985531           HTTP-8 ResourceFinder.cpp:762] W005: Requested tag 0008,0060 should only be read at the series or instance level
+W0320 21:00:36.985531           HTTP-8 ResourceFinder.cpp:941] W001: Accessing DICOM tags from storage when accessing study b48bbf42-830b4a47-bb7fad90-e473f523-ed473631: 0008,0060
+E0320 21:00:36.998577           HTTP-8 dicom-web:/Configuration.cpp:643] Unsupported return MIME type: application/dicom+json, multipart/related; type=application/octet-stream; transfer-syntax=*, will return DICOM+JSON
+W0320 21:00:37.010103           HTTP-8 ResourceFinder.cpp:762] W005: Requested tag 0008,0060 should only be read at the series or instance level
+W0320 21:00:37.010103           HTTP-8 ResourceFinder.cpp:941] W001: Accessing DICOM tags from storage when accessing study b48bbf42-830b4a47-bb7fad90-e473f523-ed473631: 0008,0060
+W0320 21:00:37.011101           HTTP-8 ResourceFinder.cpp:941] W001: Accessing DICOM tags from storage when accessing study fc6fbffe-8531efa2-7434a372-09242661-fe012bc6: 0008,0060
+W0320 21:00:37.133404           HTTP-8 ResourceFinder.cpp:762] W005: Requested tag 0008,0060 should only be read at the series or instance level
+W0320 21:00:37.133404           HTTP-8 ResourceFinder.cpp:941] W001: Accessing DICOM tags from storage when accessing study b48bbf42-830b4a47-bb7fad90-e473f523-ed473631: 0008,0060
+W0320 21:00:37.142933           HTTP-8 ResourceFinder.cpp:762] W005: Requested tag 0008,0060 should only be read at the series or instance level
+W0320 21:00:37.144439           HTTP-8 ResourceFinder.cpp:941] W001: Accessing DICOM tags from storage when accessing study b48bbf42-830b4a47-bb7fad90-e473f523-ed473631: 0008,0060
+W0320 21:00:37.145447           HTTP-8 ResourceFinder.cpp:941] W001: Accessing DICOM tags from storage when accessing study fc6fbffe-8531efa2-7434a372-09242661-fe012bc6: 0008,0060
+E0320 21:01:30.140692          HTTP-18 dicom-web:/Configuration.cpp:643] Unsupported return MIME type: application/dicom+json, multipart/related; type=application/octet-stream; transfer-syntax=*, will return DICOM+JSON

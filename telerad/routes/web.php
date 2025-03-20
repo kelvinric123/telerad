@@ -2,10 +2,12 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\OrthancController;
+use App\Http\Controllers\RoleController;
+use App\Http\Controllers\HospitalController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('login');
 });
 
 Route::get('/dashboard', function () {
@@ -40,6 +42,19 @@ Route::middleware('auth')->group(function () {
     // Report Templates Routes
     Route::resource('report-templates', App\Http\Controllers\ReportTemplateController::class)->except(['show']);
     Route::get('/report-templates/get-templates', [App\Http\Controllers\ReportTemplateController::class, 'getTemplates'])->name('report-templates.get-templates');
+    
+    // Role Management Routes
+    Route::get('/roles', [RoleController::class, 'index'])->name('roles.index');
+    Route::post('/users/{user}/roles', [RoleController::class, 'assignRole'])->name('users.roles.assign');
+    Route::delete('/users/{user}/roles', [RoleController::class, 'removeRole'])->name('users.roles.remove');
+    
+    // Hospital Management Routes
+    Route::resource('hospitals', HospitalController::class);
+    Route::get('/hospital/users', [HospitalController::class, 'manageUsers'])->name('hospitals.manage-users');
+    Route::get('/hospital/users/create', [HospitalController::class, 'createUser'])->name('hospitals.create-user');
+    Route::post('/hospital/users', [HospitalController::class, 'storeUser'])->name('hospitals.store-user');
+    Route::get('/hospital/profile', [HospitalController::class, 'editHospitalProfile'])->name('hospitals.edit-profile');
+    Route::put('/hospital/profile', [HospitalController::class, 'updateHospitalProfile'])->name('hospitals.update-profile');
 });
 
 require __DIR__.'/auth.php';
