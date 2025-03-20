@@ -1,0 +1,21 @@
+/* Hide investigational use banner */
+[class*="fixed bottom-2 z-50"],
+[class*="fixed bottom-2 z-50"] * {
+  display: none !important;
+}
+
+/* Hide "FOR INVESTIGATIONAL USE ONLY" text in headers */
+.text-common-light.mr-3.text-lg {
+  display: none !important;
+}
+
+/* Hide any elements containing "INVESTIGATIONAL USE ONLY" text */
+*:contains("INVESTIGATIONAL USE ONLY"),
+*:contains("for investigational use only") {
+  display: none !important;
+}
+
+/* Hide specific dialog icon */
+.h-18.w-18[class*="InvestigationalUse"] {
+  display: none !important;
+} 
